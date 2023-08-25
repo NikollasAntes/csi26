@@ -34,7 +34,7 @@ nav a {
 
 .menu li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 
 .menu a {
@@ -74,6 +74,20 @@ nav a {
 /* Adicione hover para os ícones se desejar */
 .icon:hover {
     background-color: #87CEFA; /* Cor de fundo quando hover */
+}
+
+.page-link {
+    color: #007bff;
+    text-decoration: none; /* Remover sublinhado padrão dos links */
+}
+
+/* Estilo para links visitados no corpo das páginas */
+.page-link:visited {
+    color: #007bff;
+}
+
+.page-link:hover {
+    color: #ff0000; /* Cor que os links terão quando o cursor estiver sobre eles */
 }
 
 main {
